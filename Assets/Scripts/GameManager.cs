@@ -10,12 +10,16 @@ public class GameManager : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-		// Configure SDK
 		DDNA.Instance.SetLoggingLevel(DeltaDNA.Logger.Level.DEBUG);
 		DDNA.Instance.StartSDK();
 
 		if (missionID == 0) {
 			missionName = "Demo Mission";
+			Debug.Log(missionName);
+		}
+
+		if (missionID == 1) {
+			missionName = "Demo Mission 2";
 			Debug.Log(missionName);
 		}
 

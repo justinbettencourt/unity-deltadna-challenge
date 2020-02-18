@@ -20,7 +20,6 @@ public class GameEnding : MonoBehaviour
 	public GameObject GameManagerObj;
 	public int missionID;
 	public string missionName;
-	// public string levelName;
 
 	void Start() {
 		GameManagerObj = GameObject.Find("GameManager");
@@ -70,12 +69,25 @@ public class GameEnding : MonoBehaviour
             {
 				// Before reloading the scene, capture information for DDNA.
 				DDNA_missionFailedEvent();
-                SceneManager.LoadScene (0);
+				if (missionID == 0) {
+					SceneManager.LoadScene (0);
+				}
+                
+				if (missionID == 1) {
+					SceneManager.LoadScene (1);
+				}
+
             }
             else
             {
 				DDNA_missionCompletedEvent();
-                SceneManager.LoadScene (0);
+				if (missionID == 0) {
+					SceneManager.LoadScene (1);
+				}
+                
+				if (missionID == 1) {
+					SceneManager.LoadScene (1);
+				}
             }
         }
     }

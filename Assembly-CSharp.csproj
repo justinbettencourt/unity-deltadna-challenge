@@ -110,6 +110,7 @@
      <Compile Include="Assets\Scripts\LightFlicker.cs" />
      <Compile Include="Assets\Scripts\Observer.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PurchaseCTA.cs" />
      <Compile Include="Assets\Scripts\WaypointPatrol.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <None Include="Assets\3DBeginner_Third-PartyNotice.txt" />
