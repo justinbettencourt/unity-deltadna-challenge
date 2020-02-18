@@ -67,7 +67,6 @@ public class GameEnding : MonoBehaviour
         {
             if (doRestart)
             {
-				// Before reloading the scene, capture information for DDNA.
 				DDNA_missionFailedEvent();
 				if (missionID == 0) {
 					SceneManager.LoadScene (0);
@@ -109,6 +108,5 @@ public class GameEnding : MonoBehaviour
 			.AddParam("missionName", missionName);
 
 		DDNA.Instance.RecordEvent(missionCompletedEvent);
-		
 	}
 }

@@ -3,7 +3,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp-Editor.dll:
     - DeltaDNA.Editor.ConfigurationWindow
     Assembly-CSharp.dll:
-    - DeltaDNA.PurchaseCTA
     - GameEnding
     - GameManager
     - LightFlicker
@@ -48,12 +47,8 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.RectMask2D
-    - UnityEngine.UI.ScrollRect
-    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
     com.unity.multiplayer-hlapi.Runtime.dll:
@@ -121,59 +116,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11448}
     - Class: 114
-      Script: {instanceID: 11476}
+      Script: {instanceID: 11552}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11612}
     - Class: 114
-      Script: {instanceID: 11558}
+      Script: {instanceID: 11696}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11788}
     - Class: 114
-      Script: {instanceID: 11698}
+      Script: {instanceID: 11838}
     - Class: 114
-      Script: {instanceID: 11778}
+      Script: {instanceID: 11876}
     - Class: 114
-      Script: {instanceID: 11790}
+      Script: {instanceID: 12240}
     - Class: 114
-      Script: {instanceID: 11840}
+      Script: {instanceID: 12306}
     - Class: 114
-      Script: {instanceID: 11878}
+      Script: {instanceID: 12562}
     - Class: 114
-      Script: {instanceID: 11940}
+      Script: {instanceID: 12722}
     - Class: 114
-      Script: {instanceID: 12242}
+      Script: {instanceID: 12784}
     - Class: 114
-      Script: {instanceID: 12308}
+      Script: {instanceID: 12934}
     - Class: 114
-      Script: {instanceID: 12564}
+      Script: {instanceID: 13086}
     - Class: 114
-      Script: {instanceID: 12574}
+      Script: {instanceID: 13180}
     - Class: 114
-      Script: {instanceID: 12724}
+      Script: {instanceID: 13376}
     - Class: 114
-      Script: {instanceID: 12786}
+      Script: {instanceID: 13708}
     - Class: 114
-      Script: {instanceID: 12936}
+      Script: {instanceID: 13948}
     - Class: 114
-      Script: {instanceID: 13088}
+      Script: {instanceID: 14076}
     - Class: 114
-      Script: {instanceID: 13182}
+      Script: {instanceID: 14138}
     - Class: 114
-      Script: {instanceID: 13378}
+      Script: {instanceID: 14230}
     - Class: 114
-      Script: {instanceID: 13710}
+      Script: {instanceID: 14266}
     - Class: 114
-      Script: {instanceID: 13950}
-    - Class: 114
-      Script: {instanceID: 14078}
-    - Class: 114
-      Script: {instanceID: 14140}
-    - Class: 114
-      Script: {instanceID: 14232}
-    - Class: 114
-      Script: {instanceID: 14268}
-    - Class: 114
-      Script: {instanceID: 14294}
+      Script: {instanceID: 14292}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -270,59 +255,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11448}
     - Class: 114
-      Script: {instanceID: 11476}
+      Script: {instanceID: 11552}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11612}
     - Class: 114
-      Script: {instanceID: 11558}
+      Script: {instanceID: 11696}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11788}
     - Class: 114
-      Script: {instanceID: 11698}
+      Script: {instanceID: 11838}
     - Class: 114
-      Script: {instanceID: 11778}
+      Script: {instanceID: 11876}
     - Class: 114
-      Script: {instanceID: 11790}
+      Script: {instanceID: 12240}
     - Class: 114
-      Script: {instanceID: 11840}
+      Script: {instanceID: 12306}
     - Class: 114
-      Script: {instanceID: 11878}
+      Script: {instanceID: 12562}
     - Class: 114
-      Script: {instanceID: 11940}
+      Script: {instanceID: 12722}
     - Class: 114
-      Script: {instanceID: 12242}
+      Script: {instanceID: 12784}
     - Class: 114
-      Script: {instanceID: 12308}
+      Script: {instanceID: 12934}
     - Class: 114
-      Script: {instanceID: 12564}
+      Script: {instanceID: 13086}
     - Class: 114
-      Script: {instanceID: 12574}
+      Script: {instanceID: 13180}
     - Class: 114
-      Script: {instanceID: 12724}
+      Script: {instanceID: 13376}
     - Class: 114
-      Script: {instanceID: 12786}
+      Script: {instanceID: 13708}
     - Class: 114
-      Script: {instanceID: 12936}
+      Script: {instanceID: 13948}
     - Class: 114
-      Script: {instanceID: 13088}
+      Script: {instanceID: 14076}
     - Class: 114
-      Script: {instanceID: 13182}
+      Script: {instanceID: 14138}
     - Class: 114
-      Script: {instanceID: 13378}
+      Script: {instanceID: 14230}
     - Class: 114
-      Script: {instanceID: 13710}
+      Script: {instanceID: 14266}
     - Class: 114
-      Script: {instanceID: 13950}
-    - Class: 114
-      Script: {instanceID: 14078}
-    - Class: 114
-      Script: {instanceID: 14140}
-    - Class: 114
-      Script: {instanceID: 14232}
-    - Class: 114
-      Script: {instanceID: 14268}
-    - Class: 114
-      Script: {instanceID: 14294}
+      Script: {instanceID: 14292}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -444,12 +419,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: MotionBlur
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DeltaDNA
-    className: PurchaseCTA
   - hash:
       serializedVersion: 2
       Hash: 04e4a8b0447477cc4e933d9e5311188f
